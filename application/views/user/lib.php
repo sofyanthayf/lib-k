@@ -1,1 +1,1 @@
-<h1><?= $user ?> Library </h1>
+<h1>Perpustakaan <?= $usermodel->userdata['nama_depan']." ".$usermodel->userdata['nama_belakang'] ?> </h1>

@@ -10,8 +10,10 @@ $route['about'] 	= 'home/about';
 $route['faq'] 		= 'home/faq';
 
 /******* AUTH *******/
+$route['checkemail/(:any)'] 	= 'auth/checkemail/$1';
 $route['verify/(:any)/(:any)'] 	= 'auth/signup_verify/$1/$2';
-$route['signup'] 				= 'auth/register';
+$route['signup'] 				= 'auth/signup';	// form pendaftaran
+$route['register'] 				= 'auth/register';	// proses pendaftaran
 $route['signin']    			= 'auth/signin';
 $route['signout']   			= 'auth/signout';
 

@@ -18,6 +18,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="<?= base_url() ?>/assets/js/bootstrap.min.js"></script>
 
+    <!-- LIB-K Specific Script -->
+    <script src="assets/js/libk_script.js"></script>
+
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
